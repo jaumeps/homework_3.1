@@ -1,0 +1,15 @@
+
+<launch>
+
+<rosparam command="load" file="$(find homework_3.1)/information/year.yaml"/>
+
+<node
+      pkg="rviz"
+      type="rviz"
+      name="rviz"/>
+
+<include file="$(find usb_cam)/launch/usb_cam-test.launch">
+
+</include>
+
+</launch>

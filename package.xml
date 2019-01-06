@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+    <name>homework_3_1</name>
+    <version>0.0.0</version>
+    <description>
+        Exercise 3.1
+    </description>
+
+    <!-- One maintainer tag required, multiple allowed, one person per tag -->
+    <maintainer email="jaume.pregonas@gmail.com">Jaume Pregonas Sarrà</maintainer>
+
+    <!-- One license tag required, multiple allowed, one license per tag -->
+    <license>BSD</license>
+
+    <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+    <url type="website">https://github.com/jaumeps/homework_3.1</url>
+
+    <!-- Author tags are optional, mutiple are allowed, one per tag -->
+    <author email="jaume.pregonas@gmail.com">Jaume Pregonas Sarrà</author>
+
+    <!-- The *_depend tags are used to specify dependencies -->
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <build_depend>rospy</build_depend>
+    <build_depend>image_transport</build_depend>
+    <build_depend>cv_bridge</build_depend>
+
+    <run_depend>roscpp</run_depend>
+    <run_depend>rospy</run_depend>
+    <run_depend>image_transport</run_depend>
+    <run_depend>cv_bridge</run_depend>
+
+</package>
